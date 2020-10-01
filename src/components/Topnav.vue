@@ -44,7 +44,7 @@
           Connect wallet
         </UiButton>
         <UiButton class="ml-2 hide-sm">
-          <a href="https://bscswap.pro" target="_blank"><span v-text="'Exchange'" class="ml-n1 mr-n1" /></a>
+          <a href="https://testnet.bscswap.pro" target="_blank"><span v-text="'Exchange'" class="ml-n1 mr-n1" /></a>
         </UiButton>
         <UiButton @click="modalAboutOpen = true" class="ml-2 hide-sm">
           <span v-text="'?'" class="ml-n1 mr-n1" />
