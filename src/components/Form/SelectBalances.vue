@@ -37,7 +37,7 @@
     </UiTable>
     <div class="m-4 p-3 border rounded-1 text-white">
       <VueSwitch v-model="autoPricing" class="mr-3" /> Calculate deposits using
-      Balancer price (recommended)
+      BSCswap Pro price (recommended)
     </div>
   </div>
 </template>

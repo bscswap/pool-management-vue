@@ -11,7 +11,7 @@
           style="padding-top: 2px;"
         >
           <img
-            src="~/@/assets/logo.svg"
+            src="~/@/assets/logo.png"
             class="mr-2 v-align-middle"
             width="32"
             height="32"
@@ -19,7 +19,7 @@
           <span
             class="d-inline-block text-white"
             style="letter-spacing: 1px; font-size: 16px;"
-            v-text="'Balancer'"
+            v-text="'BSCswap Pro'"
           />
         </router-link>
       </div>
@@ -42,6 +42,9 @@
           class="button-primary"
         >
           Connect wallet
+        </UiButton>
+        <UiButton class="ml-2 hide-sm">
+          <a href="https://bscswap.pro" target="_blank"><span v-text="'Exchange'" class="ml-n1 mr-n1" /></a>
         </UiButton>
         <UiButton @click="modalAboutOpen = true" class="ml-2 hide-sm">
           <span v-text="'?'" class="ml-n1 mr-n1" />

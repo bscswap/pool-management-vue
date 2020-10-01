@@ -18,7 +18,7 @@
         <div v-for="(balance, i) in balances" :key="i" class="d-flex mb-3">
           <Token :address="i" size="20" class="mr-2" />
           <div v-text="_ticker(i)" v-if="i !== 'ether'" class="flex-auto" />
-          <div v-else class="flex-auto">ETH</div>
+          <div v-else class="flex-auto">BNB</div>
           <div v-text="_num(formatBalance(balance, i))" />
         </div>
       </div>
@@ -35,12 +35,8 @@ import { clone, normalizeBalance } from '@/helpers/utils';
 
 const startItems = [
   {
-    name: 'Shared pools',
+    name: 'Pools',
     to: { name: 'home' }
-  },
-  {
-    name: 'Private pools',
-    to: { name: 'private' }
   }
 ];
 
@@ -57,7 +53,6 @@ export default {
     items() {
       const items = clone(startItems);
       items[0].count = this.subgraph.balancer.finalizedPoolCount;
-      items[1].count = this.subgraph.balancer.privatePoolCount;
       if (this.web3.account) {
         items.push({
           name: 'Create a pool',

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-text="'ETH → WETH'" class="eyebrow mb-2" />
+    <div v-text="'BNB → WBNB'" class="eyebrow mb-2" />
     <div class="d-flex mb-3">
       <div class="input d-flex flex-justify-end">
         <input
@@ -19,7 +19,7 @@
         Wrap
       </UiButton>
     </div>
-    <div v-text="'WETH → ETH'" class="eyebrow mb-2" />
+    <div v-text="'WBNB → BNB'" class="eyebrow mb-2" />
     <div class="d-flex mb-2">
       <div
         class="input d-flex flex-items-center flex-justify-between position-relative"

@@ -171,7 +171,7 @@ export function getTokenBySymbol(symbol) {
 export function getTokenLogoUrl(address: string): string | null {
   let trustwalletId: string | null = null;
   if (address === 'ether') {
-    trustwalletId = '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2';
+    trustwalletId = '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd';
   } else {
     const checksum = getAddress(address);
     const token = config.tokens[checksum];
@@ -180,12 +180,12 @@ export function getTokenLogoUrl(address: string): string | null {
     }
   }
   if (!trustwalletId) return null;
-  return `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${trustwalletId}/logo.png`;
+  return `https://tokens.bscswap.com/images/${trustwalletId}.png`;
 }
 
 export function etherscanLink(str: string, type = 'address'): string {
-  const network = config.network === 'homestead' ? '' : `${config.network}.`;
-  return `https://${network}etherscan.io/${type}/${str}`;
+  const network = config.etherscan;
+  return `https://${network}/${type}/${str}`;
 }
 
 export const isTxRejected = error => {

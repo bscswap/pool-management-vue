@@ -6,8 +6,8 @@
         This could be a risky pool as it contains one or more tokens outside of
         our whitelist. A liquidity pool is only as good as its weakest token. If
         the token gets blacklisted, infinitely minted, or exploited in any other
-        way, <b>the pool value can go to 0</b>. Balancer Labs is never liable
-        for losses that happen using our UI or Balancer protocol. Slow down and
+        way, <b>the pool value can go to 0</b>. BSCswap Pro is never liable
+        for losses that happen using our UI or BSCswap Pro protocol. Slow down and
         do your own research!
       </div>
     </div>

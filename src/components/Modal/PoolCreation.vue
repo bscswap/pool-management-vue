@@ -14,7 +14,7 @@
         to toggle manual input.
       </div>
       <div class="mt-2">
-        By continuing you agree that Balancer Labs is not liable for any losses
+        By continuing you agree that BSCswap Pro is not liable for any losses
         you may have.
       </div>
       <div class="mt-4 d-flex flex-items-center flex-justify-center">

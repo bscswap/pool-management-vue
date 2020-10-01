@@ -1,0 +1,22 @@
+{
+  "network": "bsctestnet",
+  "chainId": 97,
+  "defaultPrecision": 2,
+  "subgraphUrl": "https://testnet-subgraph.bscswap.com/subgraphs/name/balancer-labs/balancer-subgraph",
+  "alchemyWsUrl": "wss://testnet-ws.bscswap.com",
+  "etherscan": "testnet.bscscan.com",
+  "addresses": {
+    "bFactory": "0x67eB6Eea7f04e27ba3764e0fD90D92ebeF2d6216",
+    "bActions": "0xCd984bCc5c690A077217e8AD39A98D276eBaAA31",
+    "dsProxyRegistry": "0x357D922C71A2dB0Ce4A7AF07D3FB6C97A8dB2Bc4",
+    "proxy": "0x4a4c55e4dD83f507E81186f317332abcFF7D98d6",
+    "weth": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+    "multicall": "0xe348b292e8eA5FAB54340656f3D374b259D658b8"
+  },
+  "connectors": {
+    "injected": {
+      "id": "injected",
+      "name": "MetaMask"
+    }
+  }
+}

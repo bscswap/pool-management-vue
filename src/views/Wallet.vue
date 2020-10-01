@@ -25,7 +25,7 @@
         </div>
         <div class="column">
           <div>{{ $n(tokenPrice.price, 'price') }}</div>
-          <div class="text-gray">{{ $n(tokenPrice.priceETH) }} ETH</div>
+          <div class="text-gray">{{ $n(tokenPrice.priceETH) }} BNB</div>
         </div>
         <div class="column">
           <div>{{ $n(tokenPrice.balance) }} {{ tokenPrice.symbol }}</div>

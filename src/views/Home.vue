@@ -12,7 +12,7 @@
       <ListPools
         :query="querySharedPools"
         :key="JSON.stringify(querySharedPools)"
-        title="Shared pools"
+        title="Pools"
         withFilters="1"
         class="mb-4 pt-4"
       />
